@@ -1,1 +1,9 @@
-# Analisis-Karakteristk-Operasi-Domain-Spasial-Citra
+# Annalisis Karakteristk Operasi Domain Spasial Citra 2D, Rekayasa Sinyal Digital 1D, 
+dan Uji Linieritas System Berbasis Python. 
+Nama : Azlin Muthia Zahra 
+NIM : 452024618112 
+Deskripsi: Proyek ini merupakan sebuah eksperimen komputasi yang berfokus pada Analisis Pemrosesan Sinyal 1 Dimensi (1D) dan Pengolahan Citra Digital 2 Dimensi (2D), serta pengujian sifat linieritas sistem menggunakan bahasa pemrograman Python.
+Library : Numpy, OpenCV, Matplotlib.
+Cara menjalankan Notebook: Persiapan berkas, inisiasi runtime, eksekusi kode secara beruntutan, penanganan sintaks terkini.
+Ringkasan hasil eksperimen: Eksperimen Sinyal 1D: Penjumlahan sinyal sinusoida dan unit step berhasil menciptakan fenomena DC Offset.  Operasi pergeseran parameter $k$ berhasil memodelkan efek delay (geser kanan) dan advance (geser kiri). Amplifikasi nilai $\alpha$ sukses melakukan penskalaan amplitudo (penguatan/pelemahan) serta pembalikan fase pada nilai negatif. Eksperimen Citra 2D: Operasi penjumlahan citra memerlukan penyamaan ordo lewat fungsi resizing. Metode clipping menghasilkan gambar yang sangat terang namun kehilangan detail tekstur (blown-out) pada objek intensitas tinggi. Sebaliknya, metode normalisasi berhasil menjaga keutuhan detail tekstur kedua gambar secara halus meski kontras global sedikit menurun.
+kesimpulan : Praktikum ini memberikan kesimpulan bahwa pemrosesan sinyal digital, baik berupa data deret waktu $1\text{D}$ maupun matriks spasial $2\text{D}$, didasarkan pada manipulasi larik angka matematis yang bersifat linier. Sistem yang bersifat Linier (memenuhi hukum superposisi: homogenitas dan additivitas) sangat krusial dalam dunia teknik karena memungkinkan pemrosesan sinyal kompleks dilakukan secara efisien, terprediksi, dan bebas dari distorsi harmonik baru yang dapat merusak integritas data asli objek. 
